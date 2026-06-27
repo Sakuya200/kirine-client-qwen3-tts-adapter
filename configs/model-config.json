@@ -18,7 +18,8 @@
         "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
       ],
       "supportedDevices": ["cpu", "cuda"],
-      "supportedFeatureList": ["text-to-speech", "voice-clone", "model-training", "voice-design"]
+      "supportedFeatureList": ["text-to-speech", "voice-clone", "model-training", "voice-design"],
+      "supportedLanguages": ["chinese", "english", "japanese", "korean"]
     },
     {
       "baseModel": "qwen3_tts",
@@ -38,61 +39,53 @@
         "Qwen/Qwen3-TTS-12Hz-0.6B-VoiceDesign"
       ],
       "supportedDevices": ["cpu", "cuda"],
-      "supportedFeatureList": ["text-to-speech", "voice-clone", "model-training", "voice-design"]
+      "supportedFeatureList": ["text-to-speech", "voice-clone", "model-training", "voice-design"],
+      "supportedLanguages": ["chinese", "english", "japanese", "korean"]
     }
   ],
   "speakers": [
     {
       "name": "Vivian",
-      "languages": ["chinese", "english", "japanese"],
       "baseModel": "qwen3_tts",
       "description": "Bright, slightly edgy young female voice. Native language: Chinese."
     },
     {
       "name": "Serena",
-      "languages": ["chinese", "english", "japanese"],
       "baseModel": "qwen3_tts",
       "description": "Warm, gentle young female voice. Native language: Chinese."
     },
     {
       "name": "Uncle_Fu",
-      "languages": ["chinese", "english", "japanese"],
       "baseModel": "qwen3_tts",
       "description": "Seasoned male voice with a low, mellow timbre. Native language: Chinese."
     },
     {
       "name": "Dylan",
-      "languages": ["chinese", "english", "japanese"],
       "baseModel": "qwen3_tts",
       "description": "Youthful Beijing male voice with a clear, natural timbre. Native language: Chinese (Beijing Dialect)."
     },
     {
       "name": "Eric",
-      "languages": ["chinese", "english", "japanese"],
       "baseModel": "qwen3_tts",
       "description": "Lively Chengdu male voice with a slightly husky brightness. Native language: Chinese (Sichuan Dialect)."
     },
     {
       "name": "Ryan",
-      "languages": ["chinese", "english", "japanese"],
       "baseModel": "qwen3_tts",
       "description": "Dynamic male voice with strong rhythmic drive. Native language: English."
     },
     {
       "name": "Aiden",
-      "languages": ["chinese", "english", "japanese"],
       "baseModel": "qwen3_tts",
       "description": "Sunny American male voice with a clear midrange. Native language: English."
     },
     {
       "name": "Ono_Anna",
-      "languages": ["chinese", "english", "japanese"],
       "baseModel": "qwen3_tts",
       "description": "Playful Japanese female voice with a light, nimble timbre. Native language: Japanese."
     },
     {
       "name": "Sohee",
-      "languages": ["chinese", "english", "japanese"],
       "baseModel": "qwen3_tts",
       "description": "Warm Korean female voice with rich emotion. Native language: Korean."
     }
